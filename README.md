@@ -23,8 +23,6 @@ Then we propose an efficient model, named AggrE, to alternately aggregate the in
 
 Note: you are recommended to run this code on GPU.
 
-##
-
 ## Experimental results of relation prediction
 
 | Dataset |  acc | mrr | mr | h1 | h3 | h5 | h10 |
