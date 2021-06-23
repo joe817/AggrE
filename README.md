@@ -2,6 +2,9 @@
 AggrE aims to take full advantage of both the entity context and relation context for enhancing the KGC task. Specifically, different from the neighborhood definition in traditional KG topology, for each element in each triplet, we extract the pair composed of the other two elements as one neighbor in its context.
 Then we propose an efficient model, named AggrE, to alternately aggregate the information of entity context and relation context in multi-hops into entity and relation, and learn context-enhanced entity embeddings and relation embeddings. Then we use the learned embeddings to predict the missing relation r given a pair of entities (h,?,t) to complete knowledge graphs.
 
+If this code helps you, please cite the following paper:
+Qiao, Ziyue, Zhiyuan Ning, Yi Du, and Yuanchun Zhou. "[Context-Enhanced Entity and Relation Embedding for Knowledge Graph Completion (Student Abstract).](https://ojs.aaai.org/index.php/AAAI/article/view/17932)" In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 35, no. 18, pp. 15871-15872. 2021.
+
 ![](https://github.com/joe817/img/blob/master/Aggre.png)
 
 ## Files in the folder
